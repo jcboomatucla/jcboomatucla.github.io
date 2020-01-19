@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Simple Sidebar - Start Bootstrap Template</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading">Homeworks </div>
+      <div class="list-group list-group-flush">
+        <a href="#1" class="list-group-item list-group-item-action bg-light">Homework 1</a>
+        <a href="#2" class="list-group-item list-group-item-action bg-light">Homework 2</a>
+        <a href="#3" class="list-group-item list-group-item-action bg-light">Homework 3</a>
+        <a href="#4" class="list-group-item list-group-item-action bg-light">Homework 4</a>
+        <a href="#5" class="list-group-item list-group-item-action bg-light">Homework 5</a>
+        <a href="#6" class="list-group-item list-group-item-action bg-light">Homework 6</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="mailto:jcboom@ucla.edu">Jonathan Calzada <span class="sr-only">(current)</span></a>
+            </li>
+
+
+<!--             <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+ -->          </ul>
+        </div>
+      </nav>
+      <div class="container-fluid" id="">
+
+        <h1>DH 201, Fall 2019 Homeworks</h1>
+
+      </div>
+
+      <div class="container-fluid" id="1">
+        <h1 class="mt-4">Homework 1</h1>
+        <p>I was initially curious about the Digital Humanities project titled <a href="https://storymaps.arcgis.com/stories/f87b548640804f9494b4c1943836f64e" target="_blank">"Returning to Roots: History of Adobe Structures in San Antonio Texas”</a> because I realized that I did not know exactly what adobe is or what it means to the culture and history of the Mexican-American region. Although the project is a single-page site with basic information, it is organized into a question and answer narrative that provides a basic description of adobe culture in San Antonio, Texas. The project displays secondary sources which include historical photographs, maps, and news paper clippings. Although the origins of all sources are not always clear, I can discern they include maps from <a href="https://en.wikipedia.org/wiki/Sanborn_Maps" target="_blank">The Sanborn Map Company</a> and the University of Texas at Austin, pictures and references from the <a href="https://www.uiw.edu/sanantonio/adobebrick.html" target="_blank">University of the Incarnate Word</a>, and news clippings from local San Antonio publications including <i>The Daily Express News</i> and <i>The San Antonio Ledger</i>. The project features an interactive map of San Antonio showing where adobe buildings were once located and where some still remain as of 2019 using ArcGIS StoryMaps from a company called Esri (Environmental Systems Research Institute). Shine Trabucco, the author, most likely needed to transcribe the specific location of adobe structures given their research and geocode them into the ArcGIS tool using their online interface. Trabucco also incorporated some sort of slideshow that goes through a historical display containing a brief narrative along with a map and several pictures. Since there is not an “about” page, much of the sources, processed and presented layers are obscured. Overall the presentation in narrative or story telling form is a smooth and easy introduction for all types of audiences into adobe culture in San Antonio Texas. I especially think that the last question of the project, which asks why one should care about adobe, is the perfect question with which to end the narrative. Not only does it try to relate itself to readers, but potentially opens up the history of adobe to a pattern of cultural extinction that continues today within and without infrastructural/architectural city ordinances. However, Shine Trabucco could have made it a bit more explicit and warned the reader of how indigenous, native, or underrepresented cultures, like adobe culture, have been eradicated under a veil of public safety through city ordinances and laws. Furthermore, she could have urged us to keep an eye out for these sort of cultural threats.</p>
+      </div>
+      
+      <div class="container-fluid" id="2">
+        <h1 class="mt-4">Homework 2</h1>
+        <p>I have done the following with OpenRefine:</p>
+        <ul>
+          <li>Eliminated leading and trailing whitespace throughout.</li>
+          <li>Standardized the county names (the very last column).</li>
+          <li>Separated the applicant city and state names (in the column entitled “Applicant City”) into two columns.</li>
+        </ul>
+        <p><a href="Iowa_Arts_Council_Grants-csv-JC.csv" target="_blank"><big>Download “cleaned” dataset as a CSV here</big></a>
+      </div>
+      
+      <div class="container-fluid" id="3">
+        <h1 class="mt-4">Homework 3</h1>
+        <p>Using a subset of the <a href="https://www.fbi.gov/services/cjis/ucr/hate-crime" target="_blank">FBI Hate Crime database</a>, I created the following stacked barchart showing hatecrime Incidents, Offenses, Victims, and Known Offenders by Bias Motivation for 2018. The <a href="hw3.xls" target="_blank">Microsoft Excel data file can be downloaded here</a> or seen in <a href="hw3.htm" target="_blank"> HTML format here</a></p>
+        <p><img src="hw3.fld/hw3_7447_image001.png" width="100%">.</p>
+      </div>
+      
+      <div class="container-fluid" id="4">
+        <h1 class="mt-4">Homework 4</h1>
+        <p>I started looking through the Gutenberg archive for books that I had read, but it was overwhelming to even begin to select five. I then chose the category of philosophy. I ultimately decided to choose five black American authors. It was much easier to find male authors such as W.E.B. Dubois, Booker T. Washington, and James Weldon Johnson. On the other hand, when I searched for Maya Angelou, Assata Shakur, and Audrey Lorde, I did not find any of their work. I did manage to find Ida B. Wells and discovered Elizabeth Keckley who was a former slave. For this assignment, I analyzed the following texts using Voyant after downloading them from Project Gutenberg and deleting their boilerplate licensing footer:</p>
+        <ul>
+          <li><i>The Souls of Black Folk</i> by W.E.B. Du Bois</li>
+          <li><i>Up From Slavery</i> by Booker T. Washington</li>
+          <li><i>The Autobiography of an Ex-Colored Man</i> by James Weldon Johnson</li>
+          <li><i>Southern Horrors</i> by Ida B. Wells-Barnett</li>
+          <li><i>Behind the Scenes</i> by Elizabeth Keckley</li>
+        </ul>
+        <p>What was immediately noticeable across the five texts were references to gender and ethnicity. The word “man” was one of the most prominent terms showing up among the top 25 terms in the word cloud for all texts except <i>Behind the Scenes</i>. For that particular text the term “mrs” was the most prominent showing up 470 times, “mr” 262 times, and “man” 72 times. Below are the rest of the distributions of the terms “woman,” “women," “man,” and “men:"</p>
+        <ul>
+          <li><i>The Souls of Black Folk</i>: man (121); men (209); women (25); woman (14)</li>
+          <li><i>Up From Slavery</i>: man (178); men (139); women (60); woman (5)</li>
+          <li><i>The Autobiography of an Ex-Colored Man</i>: man (150); men (100); women (29); woman (22);</li>
+          <li><i>Southern Horrors</i>: men (46); man (38); women (32); woman (20)</li>
+          <li><i>Behind the Scenes</i>: man (72); woman (31); men (30); women (6)</li>
+        </ul>
+        <p>An interpretation of these results at this surface level quickly reveal how male authors reference men much more often than women while the female authors’ texts have a slightly more equally balanced distribution. With that said, <i>Behind the Scenes</i> only contains the term “women” six times, which requires further analysis. This type of distant reading and analysis (word frequency and word count) leaves important context out of the analysis and should be corroborated with other techniques and/or methods entirely.</p>
+
+        <p>Next, I played around with the terms in the network “Links” pane by adding the terms “man” and “woman” to determine which other terms were most frequently associated with them. The results were interesting. For example, the following are the results for <i>The Autobiography of an Ex-Colored Man</i> embedded in as an <code>iframe</code> from Voyant:</p> </br>
+        <p align="center">
+        <iframe style='width: 425px; height: 353px;' src='https://voyant-tools.org/tool/CollocatesGraph/?query=woman*&mode=corpus&corpus=74a7cf488cfd0a83b31d77494b2f9149' frameBorder="0"></iframe>
+        <iframe style='width: 425px; height: 353px;' src='https://voyant-tools.org/tool/CollocatesGraph/?query=man*&mode=corpus&corpus=74a7cf488cfd0a83b31d77494b2f9149' frameborder="0"></iframe>
+      </p>
+
+        <p>To avoid an annoying repetition and prevent your browswer from overloading, I have summerized the results below in plain text:</p>
+        <ul>
+          <li><i>The Souls of Black Folk</i>: woman (beautiful; begged; amid; arrested; became); man (old; tall; master; make; said);</li>
+          <li><i>Up From Slavery</i>: woman (just; education; general; ruffner; england); man (white; believe; time; southern);</li>
+          <li><i>The Autobiography of an Ex-Colored Man</i>: woman(world; beautiful; attractive; allowed; acting); man (brown; ex; said; house; colored) </li>
+          <li><i>Southern Horrors</i>: woman (memphis; case; negro; not; tenn[essee]); man (black; country; afro; american; girl)</li>
+          <li><i>Behind the Scenes</i>: woman (good; mrs; ann; lincoln; dead); man (wife; place; god; country; mr)</li>
+        </ul>
+      </p>
+
+      <p>This network analysis of associated or linked terms was also very interesting. Du Bois and Johnson associated the term woman with aesthetic or physical characteristics such as “beautiful” and “attractive,” while Wells-Barnett, Keckley, and Washington most associated the term with character, identity, and sociopolitical and natural condition. A different alignment was found regarding the term “man.” Du Bois and Johnson shared the term “said” and associate the term with characteristics as well as power exemplified with the terms “master,” and “said.” Both of the terms give voice and the power of influence to “man.” Washington also associated the term “man” with power through the terms “white” and “believe." Wells-Barnett associated “man” with conceptually the ultimate power with terms such as “god” and “country.” Additionally, Wells-Barnett and Keckley also associated the term “man" with a female counterpart exemplified in terms like “girl” and “wife.” Again, the male authors tend to talk about themselves while female authors also speak of males in relation to themselves.</p>
+
+      <p>There is plenty missing from this analysis to further contextualize gender differences, inequalities, and their subsequent transgressions in literary texts. One could not, for example, identify feminist writers by simply quantifying the times “woman” appears in a text. However, as far as distant reading goes, it is an excellent way to start and/or end when analyzing corpora in relation to these types of topics. It is a good point of exploration that can lead to a closer reading, or an excellent punctuation to finish a close analysis of such interpretations. Either one can be a part of the triangulation process when used with other methods in research (Baker and Levon 2015).</p>
+
+
+      </div>
+      
+      <div class="container-fluid" id="5">
+        <h1 class="mt-4">Homework 5</h1>
+        <p>Milestone homework: <a href="https://jcboomatucla.github.io/" target="_blank">finished site can be found here.</a></p></br>
+      </div>
+      
+      <div class="container-fluid" id="6">
+        <h1 class="mt-4">Homework 6</h1>
+        <p>The following is a map of the cities within California that have agencies that self-report hate crimes to the FBI. The tooltip displays the city name and population size. The cities names were downloaded from the <a href="https://www.fbi.gov/services/cjis/ucr/hate-crime" target="_blank">FBI Hate Crime Statistics</a> and geocoded using CartoDB:</p> 
+      <!-- Map -->
+      <iframe width="100%" height="520" frameborder="0" src="https://jcboom.carto.com/builder/46e02cd8-1d9d-4ced-8a2c-08e3c04997fa/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+
+      </div>
+      
+
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+</html>
